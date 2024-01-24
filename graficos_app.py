@@ -16,7 +16,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 import pyarrow as pa
 import pyarrow.parquet as pq
 import datetime
-
+SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 
 #Consulta os dados da base
 
