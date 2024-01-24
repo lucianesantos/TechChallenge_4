@@ -10,6 +10,8 @@ pyarrow
 datetime
 bs4
 psycopg2
+psycopg2-binary
 requests
+
 
 
