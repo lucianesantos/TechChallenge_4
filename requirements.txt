@@ -8,4 +8,5 @@ sqlalchemy
 scikit-learn
 pyarrow
 datetime
+bs4
 
