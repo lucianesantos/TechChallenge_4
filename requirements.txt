@@ -9,4 +9,7 @@ scikit-learn
 pyarrow
 datetime
 bs4
+psycopg2
+requests
+
 
