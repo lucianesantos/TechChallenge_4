@@ -27,7 +27,7 @@ import psycopg2
 #Consulta os dados da base
 
 
-conexao_string = "dbname='postgres' user='postgres' password='Fiap123' host='192.168.15.9' port='5432'"
+conexao_string = "dbname='postgres' user='postgres' password='Fiap123' host='localhost' port='5432'"
 # Conectar ao banco de dados
 conn = psycopg2.connect(conexao_string)
 # Criar um cursor para executar consultas
