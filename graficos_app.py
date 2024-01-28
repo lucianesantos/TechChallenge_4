@@ -25,7 +25,7 @@ import psycopg2
 
 
 
-engine = create_engine("postgresql://postgres:Fiap123@localhost:5432/postgres")
+engine = create_engine("postgresql://postgres:Fiap123@192.168.15.9:5432/postgres")
 conn = engine.connect()
 sql_consulta = """select * from ipea_dados;"""
 dfconsulta_base = sqlio.read_sql_query(sql_consulta, conn)
