@@ -23,6 +23,14 @@ import psycopg2
 
 
 
+# .streamlit/secrets.toml
+dialect = "postgresql"
+host = "localhost"
+port = "5432"
+database = "postgres"
+username = "postgres"
+password = "Fiap123"
+
 
 
 engine = create_engine("postgresql://postgres:Fiap123@localhost:5432/postgres")
