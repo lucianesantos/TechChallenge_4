@@ -3,12 +3,12 @@ numpy
 matplotlib
 seaborn
 openpyxl
-sqlalchemy
 scikit-learn
 pyarrow
 datetime
 bs4
 psycopg2-binary
+sqlalchemy
 requests
 
 
