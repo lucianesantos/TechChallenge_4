@@ -31,7 +31,7 @@ import datetime
 
 
 
-#engine = create_engine("postgresql://postgres:Fiap123@localhost:5432/postgres")
+#engine = create_engine("postgresql://postgres:Fiap123@127.0.0.1:5432/postgres")
 engine=create_engine(
         "postgresql://postgres:Fiap123@localhost:5432/postgres",
         pool_pre_ping=True,
