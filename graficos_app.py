@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
 import openpyxl as op
-from sqlalchemy import QueuePool, text
+from sqlalchemy import text
 from sqlalchemy import create_engine
 from ml_model import train_model, measure_model, predict_future_value, separar_treino_teste, cria_parquet
 from update_data import update_date
